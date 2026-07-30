@@ -1,0 +1,41 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.klaimee.ai/
+host: https://www.klaimee.ai
+notes: >-
+  Klaimee publishes no /.well-known/ discovery surface as of this probe. The only
+  machine-readable agent-facing document the company publishes is /llms.txt (saved
+  verbatim at llms/klaimee-llms.txt), alongside an AI-crawler-permissive robots.txt.
+  Every probed /.well-known/ path returned 404. Absence is recorded data, not a gap
+  in this harvest.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+other_agent_surfaces:
+- path: /llms.txt
+  status: 200
+  file: ../llms/klaimee-llms.txt
+- path: /robots.txt
+  status: 200
+  note: >-
+    Explicitly allows GPTBot, OAI-SearchBot, ChatGPT-User, PerplexityBot,
+    Perplexity-User, ClaudeBot, Claude-Web, Google-Extended, anthropic-ai and
+    cohere-ai, described in-file as "AI Engine Optimization".
+- path: /sitemap.xml
+  status: 200
+also_probed:
+- host: https://www.klaimee.co
+  note: secondary domain, redirects to www.klaimee.ai; /llms.txt mirrors the primary
+  paths:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /llms.txt
+    status: 200

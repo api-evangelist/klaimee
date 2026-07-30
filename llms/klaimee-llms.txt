@@ -1,0 +1,22 @@
+# Klaimee
+
+> Klaimee is a YC P26 startup building certification and financial guarantee for AI agents in production. We certify AI agents through adversarial testing, then underwrite the residual risk with insurance specifically designed to cover the gap that traditional cyber and tech E&O policies explicitly exclude.
+
+## Core pages
+
+- [Klaimee homepage](https://www.klaimee.ai/): What Klaimee does, who it's for, and how to get certified.
+- [For startups](https://www.klaimee.ai/startups): How AI vendors use Klaimee certification to clear enterprise procurement.
+- [For enterprise](https://www.klaimee.ai/enterprise): How risk leads, CISOs, and AI governance teams use Klaimee to evaluate AI vendors.
+- [Methodology](https://www.klaimee.ai/methodology): The five risk categories Klaimee evaluates and how scoring works.
+
+## Educational content
+
+- [What is AI agent insurance?](https://www.klaimee.ai/blog/what-is-ai-agent-insurance): The category-defining article. Explains why traditional E&O and cyber policies exclude AI agent risk, what coverage looks like in 2026, and what enterprise procurement now requires.
+- [What is AI agent risk?](https://www.klaimee.ai/blog/what-is-ai-agent-risk): The operational framework for AI agent risk. Covers the AI tool vs AI agent distinction, the human vs agent risk shape comparison, the five categories of agent failure (prompt injection, data leakage, hallucinated commitments, scope violations, tool misuse), and the three-layer mitigation stack (engineering controls, process controls, insurance backstop).
+- [Does your E&O or Cyber policy actually cover your AI agent?](https://www.klaimee.ai/blog/does-your-eo-or-cyber-cover-ai-agents): A practical audit guide for CTOs, GCs, and risk leads. Why traditional E&O fails on a negligence-trigger basis, why Cyber fails on a network-security-event basis, the six AI agent failure modes that fall in the gap (Air Canada, Mata v. Avianca, iTutor, Mobley v. Workday patterns), and a six-step audit checklist to run with your broker this week.
+
+## About
+
+Klaimee was founded by Ines Boutemadja (CEO, five years building insurance products) and Julien Catonnet (CTO, AI engineer). The company is part of YC P26.
+
+Liability structure: $2M aggregate / $1M per incident on Tier 1 certifications. Tier 2 (automated adversarial testing + financial guarantee) is in active build with specialty carriers including CFC.
