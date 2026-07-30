@@ -1,7 +1,33 @@
 aid: klaimee
 name: Klaimee
-description: Klaimee is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Klaimee is a Y Combinator (Spring/P26 batch) startup building certification,
+  financial guarantee, and liability insurance for AI agents running in production.
+  The company evaluates an autonomous agent across risk dimensions such as scope,
+  data exfiltration, unauthorized action, output integrity, adversarial manipulation,
+  behavioral stability, model drift, and operational control, then issues a letter-graded
+  certification report with remediation guidance and a Klaimee-Verified badge that AI
+  vendors use to clear enterprise procurement. Certified agents are backed by a financial
+  guarantee and by AI liability insurance priced against the certification score, covering
+  the gap that traditional errors-and-omissions and cyber policies explicitly exclude —
+  hallucinated outputs, unauthorized actions, data exposure, prompt injection, and wrongful
+  commitments. Klaimee also runs a public adversarial-testing playground where teams can
+  stress-test an agent with probes for prompt injection, jailbreak, decision drift, data
+  leakage, and biased outputs. Klaimee currently sells a human-delivered certification and
+  underwriting service; it publishes no public API, SDK, or developer documentation as of
+  this enrichment pass. Founded in 2026 by Ines Boutemadja (CEO) and Julien Catonnet (CTO),
+  based in San Francisco.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.klaimee.ai/og-image.png
 url: https://raw.githubusercontent.com/api-evangelist/klaimee/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +35,51 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Insurance
+- Artificial Intelligence
+- AI Agents
+- Risk Management
+- Certification
+- Governance
+- Compliance
+- Insurtech
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/klaimee-domain-security.yml
+- type: Website
+  url: https://www.klaimee.ai/
+- type: Blog
+  url: https://www.klaimee.ai/blog
+- type: SignUp
+  url: https://www.klaimee.ai/apply
+- type: Support
+  url: mailto:contact@klaimee.ai
+- type: LinkedIn
+  url: https://www.linkedin.com/company/klaimee
+- type: Twitter
+  url: https://x.com/klaimee_ai
+- type: Profile
+  name: Y Combinator company profile
+  url: https://www.ycombinator.com/companies/klaimee
+- type: LLMsTxt
+  url: llms/klaimee-llms.txt
+- type: WellKnown
+  url: well-known/klaimee-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
