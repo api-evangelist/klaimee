@@ -16,6 +16,17 @@ description: Klaimee is a Y Combinator (Spring/P26 batch) startup building certi
   underwriting service; it publishes no public API, SDK, or developer documentation as of
   this enrichment pass. Founded in 2026 by Ines Boutemadja (CEO) and Julien Catonnet (CTO),
   based in San Francisco.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
