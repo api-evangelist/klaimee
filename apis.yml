@@ -63,6 +63,8 @@ tags:
 - Y Combinator
 apis: []
 common:
+- type: Plans
+  url: plans/klaimee-plans-pricing.yml
 - type: DomainSecurity
   url: security/klaimee-domain-security.yml
 - type: Website
