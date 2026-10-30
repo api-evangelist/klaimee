@@ -64,31 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Klaimee is a Y Combinator (Spring/P26 batch) startup building certification, financial guarantee, and liability insurance for AI agents running in production. Klaimee evaluates an autonomous agent across risk dimensions — scope, data exfiltration, unauthorized action, output integrity, adversarial manipulation, behavioral stability, model drift, and operational control — then issues a letter-graded certification report with remediation guidance and a Klaimee-Verified badge that AI vendors use to clear enterprise procurement. Certified agents are backed by a financial guarantee and by AI liability insurance priced against the certification score, covering the gap that traditional E&O and cyber policies explicitly exclude.
+Klaimee is a Y Combinator (Spring/P26 batch) startup building certification, financial guarantee, and liability insurance for AI agents running in production. The company evaluates an autonomous agent across risk dimensions such as scope, data exfiltration, unauthorized action, output integrity, adversarial manipulation, behavioral stability, model drift, and operational control, then issues a letter-graded certification report with remediation guidance and a Klaimee-Verified badge that AI vendors use to clear enterprise procurement. Certified agents are backed by a financial guarantee and by AI liability insurance priced against the certification score, covering the gap that traditional errors-and-omissions and cyber policies explicitly exclude — hallucinated outputs, unauthorized actions, data exposure, prompt injection, and wrongful commitments. Klaimee also runs a public adversarial-testing playground where teams can stress-test an agent with probes for prompt injection, jailbreak, decision drift, data leakage, and biased outputs. Klaimee currently sells a human-delivered certification and underwriting service; it publishes no public API, SDK, or developer documentation as of this enrichment pass. Founded in 2026 by Ines Boutemadja (CEO) and Julien Catonnet (CTO), based in San Francisco.
 
-- Website: https://www.klaimee.ai/
-- Blog: https://www.klaimee.ai/blog
-- Get started: https://www.klaimee.ai/apply
-- Contact: contact@klaimee.ai
-- Y Combinator: https://www.ycombinator.com/companies/klaimee
+**Areas:** Company · Insurance · Artificial Intelligence · AI Agents · Risk Management · Certification · Governance · Compliance · Insurtech · Y Combinator
 
-Founded 2026 by Ines Boutemadja (CEO) and Julien Catonnet (CTO). San Francisco.
+## Klaimee on APIs.io
 
-Backed by: y-combinator
+Everything profiled for Klaimee is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/klaimee/](https://apis.io/providers/klaimee/)** — or go straight to one of the APIs or properties below.
 
-## API surface
+### Published properties
 
-As of the 2026-07-19 enrichment pass Klaimee publishes **no public API, SDK, developer
-documentation, or OpenAPI**. The product is delivered as a human-run certification and
-underwriting engagement, with an adversarial-testing playground onboarded through an
-intake form rather than a programmatic endpoint. Spec-dependent artifacts (openapi/,
-authentication/, scopes/, errors/, conventions/, skills/, mcp/, arazzo/) are therefore
-intentionally absent rather than fabricated.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Artifacts
+#### Security (1)
 
-| Artifact | File | Method |
-|---|---|---|
-| llms.txt | `llms/klaimee-llms.txt` | searched (verbatim from https://www.klaimee.ai/llms.txt) |
-| Well-Known | `well-known/klaimee-well-known.yml` | searched (all `/.well-known/` paths 404; `/llms.txt` + AI-permissive `robots.txt` recorded) |
-| Domain security | `security/klaimee-domain-security.yml` | probed (TLS 1.3, HSTS 2y, SPF + DMARC p=none, no DNSSEC, no CAA) |
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Klaimee Domain Security](https://apis.io/security/klaimee/klaimee-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.klaimee.ai/)
+- [Sign up](https://www.klaimee.ai/apply)
+- [Blog](https://www.klaimee.ai/blog)
+
+## API Evangelist rating
+
+**Kin Score 7.8** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 13.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.9** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/klaimee/](https://apis.io/providers/klaimee/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Klaimee: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/klaimee/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
